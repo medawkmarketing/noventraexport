@@ -11,7 +11,7 @@
 body{
   margin:0;
   font-family:'Segoe UI', Arial, sans-serif;
-  background:#0f172a;
+  background:linear-gradient(135deg,#0d47a1,#42a5f5);
 }
 
 .card{
@@ -19,24 +19,24 @@ body{
   margin:30px auto;
   background:#ffffff;
   padding:22px;
-  border-radius:16px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.3);
+  border-radius:18px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.2);
   text-align:center;
 }
 
 .logo img{
-  width:90px;
+  width:95px;
   margin-bottom:10px;
 }
 
 h2{
   margin:10px 0 5px;
   font-size:22px;
-  color:#111827;
+  color:#0d47a1;
 }
 
 .tagline{
-  color:#6b7280;
+  color:#333;
   font-size:14px;
   margin-bottom:18px;
 }
@@ -47,40 +47,72 @@ h2{
   justify-content:center;
   gap:10px;
   margin:10px 0;
-  padding:12px;
-  background:#111827;
+  padding:13px;
+  background:linear-gradient(135deg,#0d47a1,#42a5f5);
   color:#fff;
   text-decoration:none;
-  border-radius:8px;
-  font-size:14px;
+  border-radius:10px;
+  font-size:15px;
+  font-weight:500;
   transition:0.3s;
 }
 
 .btn i{
-  font-size:16px;
+  font-size:18px;
 }
 
 .btn:hover{
-  background:#f59e0b;
-  color:#000;
+  transform:scale(1.03);
+  box-shadow:0 6px 18px rgba(0,0,0,0.25);
 }
 
 hr{
   border:none;
-  border-top:1px solid #e5e7eb;
+  border-top:1px solid #ddd;
   margin:20px 0;
 }
 
 .section-title{
   font-weight:600;
-  color:#111827;
+  color:#0d47a1;
   margin-bottom:6px;
 }
 
-.text{
+.address, .services, .description{
   font-size:14px;
-  color:#374151;
+  color:#333;
   line-height:1.6;
+}
+
+/* 🔥 Small Square-Round Social Icons */
+.social-icons{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  margin-top:15px;
+}
+
+.social-icons a{
+  width:40px;
+  height:40px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:10px;
+  color:#fff;
+  font-size:16px;
+  transition:0.3s;
+}
+
+/* Brand Colors */
+.facebook{ background:#1877f2; }
+.instagram{ background:#e1306c; }
+.linkedin{ background:#0a66c2; }
+
+/* Hover Effect */
+.social-icons a:hover{
+  transform:translateY(-3px) scale(1.08);
+  box-shadow:0 8px 18px rgba(0,0,0,0.25);
 }
 </style>
 </head>
@@ -90,21 +122,21 @@ hr{
 <div class="card">
 
   <div class="logo">
-    <img src="NOVENTRA EXPORT.png" alt="Noventra Export Logo">
+    <img src="NOVENTRA EXPORT.png" alt="Noventra Export">
   </div>
 
-  <h2>Bansal Export</h2>
-  <div class="tagline">Connecting quality | Delivery Trust</div>
+  <h2>Canevibe Bio Export</h2>
+  <div class="tagline">Connecting Quality | Delivery Trust</div>
 
   <a class="btn" href="contact.vcf">
     <i class="fa-solid fa-address-card"></i> Save Contact
   </a>
 
-  <a class="btn" href="tel:+91XXXXXXXXXX">
+  <a class="btn" href="tel:+919173376636">
     <i class="fa-solid fa-phone"></i> Call Now
   </a>
 
-  <a class="btn" href="https://wa.me/91XXXXXXXXXX">
+  <a class="btn" href="https://wa.me/919173376636" target="_blank">
     <i class="fa-brands fa-whatsapp"></i> WhatsApp
   </a>
 
@@ -112,29 +144,37 @@ hr{
     <i class="fa-solid fa-envelope"></i> E-mail
   </a>
 
-  <a class="btn" href="https://noventraexport.com/" target="_blank">
+  <a class="btn" href="https://nocentraexport.com/" target="_blank">
     <i class="fa-solid fa-globe"></i> Website
   </a>
 
   <hr>
 
-  <div class="section-title">About Us</div>
-  <div class="text">
-    Is a global trading company dedicated to delivering high-quality products and seamless export-import solutions worldwide. With a focus on reliability, compliance, and customer satisfaction, the company helps businesses build strong international trade relationships through efficient sourcing, logistics management, and end-to-end export support.
+  <div class="section-title">About</div>
+  <div class="description">
+    is a global trading company dedicated to delivering high-quality products and seamless export-import solutions worldwide. With a focus on reliability, compliance, and customer satisfaction, the company helps businesses build strong international trade relationships through efficient sourcing, logistics management, and end-to-end export support.
   </div>
 
   <hr>
 
-  <div class="section-title">Products</div>
-  <div class="text">
-    Medical-Surgical • Herbel-Nutra • Textile products  
+  <div class="section-title">Services</div>
+  <div class="services">
+    Connecting Quality | Delivery Trust
   </div>
 
-  <hr>
+  <!-- 🔥 Social Icons -->
+  <div class="social-icons">
+    <a class="facebook" href="https://www.facebook.com/profile.php?id=61590101535335" target="_blank">
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
 
-  <div class="section-title">Global Reach</div>
-  <div class="text">
-    Serving clients across UAE, USA, UK, Africa, and Asia with strong logistics and export support.
+    <a class="instagram" href="https://www.instagram.com/noventra_export?igsh=MzRydXJmbm54dDMw" target="_blank">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a class="linkedin" href="https://www.linkedin.com/company/123224076/admin/dashboard/" target="_blank">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
   </div>
 
 </div>
