@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bansal Export | Digital Card</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+body{
+  margin:0;
+  font-family:'Segoe UI', Arial, sans-serif;
+  background:#0f172a;
+}
+
+.card{
+  max-width:420px;
+  margin:30px auto;
+  background:#ffffff;
+  padding:22px;
+  border-radius:16px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.3);
+  text-align:center;
+}
+
+.logo img{
+  width:90px;
+  margin-bottom:10px;
+}
+
+h2{
+  margin:10px 0 5px;
+  font-size:22px;
+  color:#111827;
+}
+
+.tagline{
+  color:#6b7280;
+  font-size:14px;
+  margin-bottom:18px;
+}
+
+.btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  margin:10px 0;
+  padding:12px;
+  background:#111827;
+  color:#fff;
+  text-decoration:none;
+  border-radius:8px;
+  font-size:14px;
+  transition:0.3s;
+}
+
+.btn i{
+  font-size:16px;
+}
+
+.btn:hover{
+  background:#f59e0b;
+  color:#000;
+}
+
+hr{
+  border:none;
+  border-top:1px solid #e5e7eb;
+  margin:20px 0;
+}
+
+.section-title{
+  font-weight:600;
+  color:#111827;
+  margin-bottom:6px;
+}
+
+.text{
+  font-size:14px;
+  color:#374151;
+  line-height:1.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <div class="logo">
+    <img src="NOVENTRA EXPORT.png" alt="Noventra Export Logo">
+  </div>
+
+  <h2>Bansal Export</h2>
+  <div class="tagline">Connecting quality | Delivery Trust</div>
+
+  <a class="btn" href="contact.vcf">
+    <i class="fa-solid fa-address-card"></i> Save Contact
+  </a>
+
+  <a class="btn" href="tel:+91XXXXXXXXXX">
+    <i class="fa-solid fa-phone"></i> Call Now
+  </a>
+
+  <a class="btn" href="https://wa.me/91XXXXXXXXXX">
+    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+  </a>
+
+  <a class="btn" href="mailto:info@noventraexport.com">
+    <i class="fa-solid fa-envelope"></i> E-mail
+  </a>
+
+  <a class="btn" href="https://noventraexport.com/" target="_blank">
+    <i class="fa-solid fa-globe"></i> Website
+  </a>
+
+  <hr>
+
+  <div class="section-title">About Us</div>
+  <div class="text">
+    Is a global trading company dedicated to delivering high-quality products and seamless export-import solutions worldwide. With a focus on reliability, compliance, and customer satisfaction, the company helps businesses build strong international trade relationships through efficient sourcing, logistics management, and end-to-end export support.
+  </div>
+
+  <hr>
+
+  <div class="section-title">Products</div>
+  <div class="text">
+    Medical-Surgical • Herbel-Nutra • Textile products  
+  </div>
+
+  <hr>
+
+  <div class="section-title">Global Reach</div>
+  <div class="text">
+    Serving clients across UAE, USA, UK, Africa, and Asia with strong logistics and export support.
+  </div>
+
+</div>
+
+</body>
+</html>
